@@ -8,8 +8,9 @@ namespace ConsoleApp1
         static void Main(string[] args)
         {
 
-            Ejercicio4 program = new Ejercicio4();
-            Console.WriteLine(program.solution(1, 5, 2));
+            Ejercicio5 program = new Ejercicio5();
+            int[] lLista = new int[] { 2, 3, 1, 5};
+            Console.WriteLine(program.solution(lLista));
 
             // Ejercicio 3 :stack move
             //int[] MyStack ;
